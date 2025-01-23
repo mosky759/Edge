@@ -6,7 +6,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '0c642c32-bb36-445c-9cfa-d84e496df426';
 
-let proxyIP = '';
+let proxyIP = 'cdn-b100.xn--b6gac.eu.org','edgetunnel.anycast.eu.org','cdn.anycast.eu.org';
 
 
 if (!isValidUUID(userID)) {
